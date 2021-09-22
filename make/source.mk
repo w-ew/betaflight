@@ -106,6 +106,7 @@ COMMON_SRC = \
             rx/ibus.c \
             rx/jetiexbus.c \
             rx/msp.c \
+            rx/pinio.c \
             rx/pwm.c \
             rx/frsky_crc.c \
             rx/rx.c \
