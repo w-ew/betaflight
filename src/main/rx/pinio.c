@@ -46,7 +46,7 @@ static uint8_t debounce;
 static bool toggleState = false;
 static bool togglePrev = true;
 
-static uint16_t rxPinioReadRawRC(const rxRuntimeState_t *rxRuntimeState, uint8_t chan)
+static float rxPinioReadRawRC(const rxRuntimeState_t *rxRuntimeState, uint8_t chan)
 {
     UNUSED(rxRuntimeState);
 
